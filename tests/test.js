@@ -47,7 +47,7 @@ describe('Utility functions', function () {
       expect(rangeObj()).to.be.an.object;
     });
     it('should return an object range', function () {
-      //expect(rangeObj()).to.eql({});
+      expect(rangeObj()).to.eql({});
       expect(rangeObj(3)).to.eql({0:0, 1:1, 2:2});
       expect(rangeObj(5)).to.eql({0:0, 1:1, 2:2, 3:3, 4:4});
     });
